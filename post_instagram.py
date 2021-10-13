@@ -22,7 +22,7 @@ print("Terminou Tempo delay")
 
   
 
-mydir = '/Users/macbook/Documents/Antonino/Pessoal/Github/post_instagram/config'
+mydir = '/config'
 try:
     shutil.rmtree(mydir)
 except OSError as e:
